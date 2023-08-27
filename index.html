@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face recognition</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+<body>
+    <center>
+        <br>
+<h2>Face recognition</h2>
+<br><br>
+<hr>
+<span id="h4"><h4>Sister</h4></span>
+<hr>
+<span id="h4"><h4>Baby</h4></span>
+    
+<hr>
+<span id="h4"><h4>Dog</h4></span>
+<hr>
+<br><br><br>
+<div id="camera"></div>
+<br>
+<div id="result"></div>
+<br><br>
+<button id="capture" onclick="capture()">Capture</button>
+<br><br>
+<button id="identify" onclick="identify()">Identify</button>
+
+</center>
+
+    <script src="main.js"></script>
+</body>
+</html>

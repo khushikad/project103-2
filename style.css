@@ -1,0 +1,37 @@
+center{
+  background-color:cornsilk;
+}
+
+
+
+
+#camera{
+border-style: dashed;
+width:350px;
+height:300px;
+
+
+
+
+}
+#result{
+    border-style: dashed;
+    width:350px;
+    height:300px;
+    
+    
+    
+    
+    }
+
+    h4{
+background-color: rgb(251, 165, 134);
+padding:30px;
+    }
+
+    button{
+        background-color: rgb(251, 165, 134);
+
+    }
+
+    
